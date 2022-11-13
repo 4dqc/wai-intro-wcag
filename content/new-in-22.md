@@ -10,7 +10,7 @@ description: This page lists the new success criteria in Web Content Accessibili
 teaser_text: WCAG 2.2 has 9 additional requirements (“success criteria”) that address the needs of people with cognitive or learning disabilities, mobile devices users, and ebook users. The What’s New in WCAG 2.2 page introduces the new success criteria. It includes quotes from personas to help you understand the issues.
 
 lang: en
-last_updated: 2021-05-13
+last_updated: 2021-06-15
 permalink: /standards-guidelines/wcag/new-in-22/
 
 github:
@@ -20,7 +20,7 @@ github:
 feedbackmail: wai@w3.org
 image: /content-images/wai-intro-wcag/general-social.png
 footer: >
-  <p><strong>Date:</strong> Updated 13 May 2021.</p>
+  <p><strong>Date:</strong> Updated 15 June 2021.</p>
   <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>. Contributors: <a href="https://www.w3.org/People/shadi/">Shadi Abou-Zahra</a>,  <a href="https://www.w3.org/groups/wg/eowg/participants">EOWG Participants</a>, and <a href="https://www.w3.org/groups/wg/ag/participants">AG WG Participants</a>.</p>
   <p>Developed with input from the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>) and the Accessibility Guidelines Working Group (<a href="https://www.w3.org/WAI/about/groups/eowg/">AG WG</a>).</p>
 inline_css: |
@@ -112,7 +112,7 @@ This page lists the proposed new success criteria in the **Working Draft** of We
 {% include toc.html type="end" %}
 {:/}
 
-## Introduction
+## Introduction, Timeline, Comments
 
 For an introduction to Web Content Accessibility Guidelines (WCAG) and more about versions 2.0, 2.1, and 2.2, see the [WCAG Overview](/standards-guidelines/wcag/).
 
@@ -120,7 +120,9 @@ WCAG 2.2 is scheduled to be completed and published in 2021. Current drafts:
 * [WCAG 2.2 Working Draft](https://www.w3.org/TR/WCAG22/) is approved to be posted as a draft
 * [Editors' Draft of WCAG 2.2](https://w3c.github.io/wcag/guidelines/22/) may have more recent updates that are not yet approved
 
-<em>If you have comments on the WCAG 2.2 Draft:</em> Please submit any comments on the proposed new success criteria **by 4 June 2021**. Ideally open one [new GitHub issue]( https://github.com/w3c/wcag/issues/new) per discrete comment. If you’re not comfortable with GitHub, you can send comments to public-agwg-comments@w3.org
+Because of the number of comments received <em>(GitHub [pull requests](https://github.com/w3c/wcag/pulls?q=is%3Apr+is%3Aopen+label%3A%22WCAG+2.2%22) and [issues](https://github.com/w3c/wcag/issues?q=is%3Aissue+is%3Aopen+label%3A%22WCAG+2.2%22))</em>, WCAG 2.2 might not be finalized until 2022. The process for completing WCAG 2.2 is introduced in [How WAI Develops Accessibility Standards through the W3C Process](https://www.w3.org/WAI/standards-guidelines/w3c-process/).
+
+Comments on the proposed new success criteria were requested by 11 June 2021. Comments submited after that date may be addressed in the next version. To comment: Ideally open one [new GitHub issue]( https://github.com/w3c/wcag/issues/new) per discrete comment. If you’re not comfortable with GitHub, you can send comments to public-agwg-comments@w3.org
 
 ### Changes from WCAG 2.1 to WCAG 2.2
 
@@ -147,13 +149,13 @@ Provide ways to help users navigate, find content, and determine where they are.
 
 ### 2.4.11 Focus Appearance (Minimum) (AA)
 <blockquote class="sc">
-  <p>When <a href="#dfn-user-interface-components" class="internalDFN" data-link-type="dfn">user interface components</a> receive keyboard focus, all of the following are true:</p>
+  <p>When <a href="https://www.w3.org/TR/WCAG22/#dfn-user-interface-components" class="internalDFN" data-link-type="dfn">user interface components</a> receive keyboard focus, all of the following are true:</p>
   <ul>
-    <li><strong>Contrasting area:</strong> There is an area of the <a href="#dfn-focus-indicator" class="internalDFN" data-link-type="dfn">focus indicator</a> that has a contrast ratio of at least 3:1 between the colors in the focused and unfocused states.</li>
+    <li><strong>Contrasting area:</strong> There is an area of the <a href="https://www.w3.org/TR/WCAG22/#dfn-focus-indicator" class="internalDFN" data-link-type="dfn">focus indicator</a> that has a contrast ratio of at least 3:1 between the colors in the focused and unfocused states.</li>
     <li><strong>Minimum area:</strong> The contrasting area is at least as large as:
       <ul>
-        <li><strong>Outline:</strong> the area of a 1 <a href="#dfn-css-pixels" class="internalDFN" data-link-type="dfn">CSS pixel</a> thick <a href="#dfn-perimeter" class="internalDFN" data-link-type="dfn">perimeter</a> of the unfocused component, or</li>
-        <li><strong>Shape:</strong> the area of a 4 CSS pixel thick line along the shortest side of a <a href="#dfn-minimum-bounding-box" class="internalDFN" data-link-type="dfn">minimum bounding box</a> of the unfocused component, and no thinner than 2 CSS pixels.</li>
+        <li><strong>Outline:</strong> the area of a 1 <a href="https://www.w3.org/TR/WCAG22/#dfn-css-pixels" class="internalDFN" data-link-type="dfn">CSS pixel</a> thick <a href="https://www.w3.org/TR/WCAG22/#dfn-perimeter" class="internalDFN" data-link-type="dfn">perimeter</a> of the unfocused component, or</li>
+        <li><strong>Shape:</strong> the area of a 4 CSS pixel thick line along the shortest side of a <a href="https://www.w3.org/TR/WCAG22/#dfn-minimum-bounding-box" class="internalDFN" data-link-type="dfn">minimum bounding box</a> of the unfocused component, and no thinner than 2 CSS pixels.</li>
       </ul>
     </li>
     <li><strong>Adjacent contrast:</strong> The contrasting area also has a contrast ratio of least 3:1 against adjacent colors in the focused component, or the contrasting area has a thickness of at least 2 CSS pixels.</li>
@@ -188,10 +190,10 @@ Provide ways to help users navigate, find content, and determine where they are.
 
 ### 2.4.12 Focus Appearance (Enhanced) (AAA)
 <blockquote class="sc">
-  <p>When <a href="#dfn-user-interface-components" class="internalDFN" data-link-type="dfn">user interface components</a> have keyboard focus, all of the following are true:</p>
+  <p>When <a href="https://www.w3.org/TR/WCAG22/#dfn-user-interface-components" class="internalDFN" data-link-type="dfn">user interface components</a> have keyboard focus, all of the following are true:</p>
   <ul>
-    <li><strong>Contrasting area:</strong> There is an area of the <a href="#dfn-focus-indicator" class="internalDFN" data-link-type="dfn">focus indicator</a> that has a contrast ratio of at least 4.5:1 between the colors in the focused and unfocused states.</li>
-    <li><strong>Minimum area:</strong> The contrasting area is at least double the area of a 1 <a href="#dfn-css-pixels" class="internalDFN" data-link-type="dfn">CSS pixel</a> <a href="#dfn-perimeter" class="internalDFN" data-link-type="dfn">perimeter</a> of the unfocused component;</li>
+    <li><strong>Contrasting area:</strong> There is an area of the <a href="https://www.w3.org/TR/WCAG22/#dfn-focus-indicator" class="internalDFN" data-link-type="dfn">focus indicator</a> that has a contrast ratio of at least 4.5:1 between the colors in the focused and unfocused states.</li>
+    <li><strong>Minimum area:</strong> The contrasting area is at least double the area of a 1 <a href="https://www.w3.org/TR/WCAG22/#dfn-css-pixels" class="internalDFN" data-link-type="dfn">CSS pixel</a> <a href="https://www.w3.org/TR/WCAG22/#dfn-perimeter" class="internalDFN" data-link-type="dfn">perimeter</a> of the unfocused component;</li>
     <li><strong>Not obscured:</strong> No part of the focus indicator is hidden by author-created content.</li>
   </ul>
 </blockquote>
@@ -211,7 +213,7 @@ Provide ways to help users navigate, find content, and determine where they are.
 
 ### 2.4.13 Page Break Navigation (A)
 <blockquote class="sc">
-  <p>For web content with <a href="#dfn-pagebreak-locators" class="internalDFN" data-link-type="dfn">page break locators</a>, a mechanism is available to navigate to each locator.</p>
+  <p>For web content with <a href="https://www.w3.org/TR/WCAG22/#dfn-pagebreak-locators" class="internalDFN" data-link-type="dfn">page break locators</a>, a mechanism is available to navigate to each locator.</p>
 </blockquote>
 <p class="persona"><a href="https://www.w3.org/WAI/people-use-web/user-stories/#classroomstudent">Student</a> with dyslexia:<br>
   and <a href="https://www.w3.org/WAI/people-use-web/user-stories/#retiree">Retiree</a> with low vision:</p>
@@ -231,9 +233,9 @@ Provide ways to help users navigate, find content, and determine where they are.
 
 Make it easier for users to operate functionality through various inputs beyond keyboard.
 
-### 2.5.7 Dragging (AA)
+### 2.5.7 Dragging Movements (AA)
 <blockquote class="sc">
-  <p>All functionality that uses a <a href="#dfn-dragging-movements" class="internalDFN" data-link-type="dfn">dragging movement</a> for operation can be achieved by a single pointer without dragging, unless dragging is <a href="#dfn-essential" class="internalDFN" data-link-type="dfn">essential</a>.</p>
+  <p>All functionality that uses a <a href="https://www.w3.org/TR/WCAG22/#dfn-dragging-movements" class="internalDFN" data-link-type="dfn">dragging movement</a> for operation can be achieved by a single pointer without dragging, unless dragging is <a href="https://www.w3.org/TR/WCAG22/#dfn-essential" class="internalDFN" data-link-type="dfn">essential</a>.</p>
   <div class="note" role="note" id="issue-container-generatedID-29">
     <div role="heading" class="note-title marker" id="h-note-28"><span>Note</span></div>
     <p class="note-p">This requirement applies to web content that interprets pointer actions (i.e. this does not apply to actions that are required to operate the user agent or assistive technology).</p>
@@ -254,13 +256,13 @@ Make it easier for users to operate functionality through various inputs beyond 
     </li>
   </ul>
 </div>
-<p><a href="https://www.w3.org/WAI/WCAG22/Understanding/dragging">Understanding Dragging</a></p>
+<p><a href="https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements">Understanding Dragging Movements</a></p>
 
 ### 2.5.8 Target Size (Minimum) (AA)
 <blockquote class="sc">
-  <p><a href="#dfn-target" class="internalDFN" data-link-type="dfn">Targets</a> have an area of at least 24 by 24 CSS pixels, except where:</p>
+  <p><a href="https://www.w3.org/TR/WCAG22/#dfn-target" class="internalDFN" data-link-type="dfn">Targets</a> have an area of at least 24 by 24 CSS pixels, except where:</p>
   <ul>
-    <li><strong>Spacing:</strong> The <a href="#dfn-target-offsets" class="internalDFN" data-link-type="dfn">target offset</a> is at least 24 CSS pixels to every adjacent target;</li>
+    <li><strong>Spacing:</strong> The <a href="https://www.w3.org/TR/WCAG22/#dfn-target-offsets" class="internalDFN" data-link-type="dfn">target offset</a> is at least 24 CSS pixels to every adjacent target;</li>
     <li><strong>Inline:</strong> The target is in a sentence or block of text;</li>
     <li><strong>Essential:</strong> A particular presentation of the target is essential to the information being conveyed.</li>
   </ul>
@@ -296,7 +298,7 @@ Make Web pages appear and operate in predictable ways.
 
 ### 3.2.6 Consistent Help (A)
 <blockquote class="sc">
-  <p>For each <a href="#dfn-web-page-s" class="internalDFN" data-link-type="dfn">web page</a> within a <a href="#dfn-set-of-web-pages" class="internalDFN" data-link-type="dfn">set of web pages</a> that provides one or more of the following ways of finding help, access to at least one form of help is included in the same relative order on each page:</p>
+  <p>For each <a href="https://www.w3.org/TR/WCAG22/#dfn-web-page-s" class="internalDFN" data-link-type="dfn">web page</a> within a <a href="https://www.w3.org/TR/WCAG22/#dfn-set-of-web-pages" class="internalDFN" data-link-type="dfn">set of web pages</a> that provides one or more of the following ways of finding help, access to at least one form of help is included in the same relative order on each page:</p>
   <ul>
     <li>Human contact details;</li>
     <li>Human contact mechanism;</li>
@@ -323,7 +325,7 @@ Make Web pages appear and operate in predictable ways.
 
 ### 3.2.7 Visible Controls (AA)
 <blockquote class="sc">
-  <p>Where receiving pointer hover or keyboard focus triggers <a href="#dfn-user-interface-components" class="internalDFN" data-link-type="dfn">user interface components</a> to be visible, information needed to identify that user interface components are available is visible, except when:</p>
+  <p>Where receiving pointer hover or keyboard focus triggers <a href="https://www.w3.org/TR/WCAG22/#dfn-user-interface-components" class="internalDFN" data-link-type="dfn">user interface components</a> to be visible, information needed to identify that user interface components are available is visible, except when:</p>
   <ul>
     <li>The information needed to identify the user interface components is available through an equivalent component that is visible on the same page or on a different step in a multi-step process without requiring pointer hover or keyboard focus;</li>
     <li>The component is provided specifically to enhance the experience for keyboard navigation;</li>
@@ -358,7 +360,7 @@ Help users avoid and correct mistakes.
 
 ### 3.3.7 Accessible Authentication (A)
 <blockquote class="sc">
-  <p>For each step in an authentication process that relies on a <a href="#dfn-cognitive-function-test" class="internalDFN" data-link-type="dfn">cognitive function test</a>, at least one other authentication method is available that does not rely on a cognitive function test, or a mechanism is available to assist the user in completing the cognitive function test.</p>
+  <p>For each step in an authentication process that relies on a <a href="https://www.w3.org/TR/WCAG22/#dfn-cognitive-function-test" class="internalDFN" data-link-type="dfn">cognitive function test</a>, at least one other authentication method is available that does not rely on a cognitive function test, or a mechanism is available to assist the user in completing the cognitive function test.</p>
   <div class="note" role="note" id="issue-container-generatedID-333">
     <div role="heading" class="note-title marker" id="h-note-333"><span>Note</span></div>
     <p class="note-p">Examples of mechanisms include: 1) support for password entry by password managers to address the memorization cognitive function test, and 2) copy and paste to help address transcription cognitive function test.</p>
@@ -379,14 +381,14 @@ Help users avoid and correct mistakes.
 
 ### 3.3.8 Redundant Entry (A)
 <blockquote class="sc">
-  <p>Information previously entered by or provided to the user that is required to be entered again in the same <a href="#dfn-processes" class="internalDFN" data-link-type="dfn">process</a> and in the same user-session is either:</p>
+  <p>Information previously entered by or provided to the user that is required to be entered again in the same <a href="https://www.w3.org/TR/WCAG22/#dfn-processes" class="internalDFN" data-link-type="dfn">process</a> and in the same user-session is either:</p>
   <ul>
     <li>auto-populated, or</li>
     <li>available for the user to select.</li>
   </ul>
   <p>Except when:</p>
   <ul>
-    <li>re-entering the information is <a href="#dfn-essential" class="internalDFN" data-link-type="dfn">essential</a>,</li>
+    <li>re-entering the information is <a href="https://www.w3.org/TR/WCAG22/#dfn-essential" class="internalDFN" data-link-type="dfn">essential</a>,</li>
     <li>the information is required to ensure the security of the content, or</li>
     <li>previously entered information is no longer valid.</li>
   </ul>
